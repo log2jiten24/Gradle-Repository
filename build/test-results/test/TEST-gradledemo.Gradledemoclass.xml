@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="gradledemo.Gradledemoclass" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-04-06T15:38:28" hostname="DESKTOP-E1E9EHH" time="2.265">
+  <properties/>
+  <testcase name="openurl" classname="gradledemo.Gradledemoclass" time="2.265"/>
+  <system-out><![CDATA[Screenshots taken
+Screenshot captured while opening google page
+driver title capture :Google
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
