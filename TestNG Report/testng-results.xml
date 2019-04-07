@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="9158" started-at="2019-04-07T10:49:56Z" finished-at="2019-04-07T10:50:05Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="9158" started-at="2019-04-07T10:49:56Z" finished-at="2019-04-07T10:50:05Z">
+      <class name="gradledemo.Gradledemoclass">
+        <test-method status="PASS" signature="launchbrowser()[pri:0, instance:gradledemo.Gradledemoclass@5b6bd7f1]" name="launchbrowser" is-config="true" duration-ms="5035" started-at="2019-04-07T20:49:56Z" description="launching of browser" finished-at="2019-04-07T20:50:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchbrowser -->
+        <test-method status="PASS" signature="openurl()[pri:1, instance:gradledemo.Gradledemoclass@5b6bd7f1]" name="openurl" duration-ms="3393" started-at="2019-04-07T20:50:01Z" description="open the url" finished-at="2019-04-07T20:50:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openurl -->
+        <test-method status="PASS" signature="close()[pri:0, instance:gradledemo.Gradledemoclass@5b6bd7f1]" name="close" is-config="true" duration-ms="690" started-at="2019-04-07T20:50:04Z" description="close the browser" finished-at="2019-04-07T20:50:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- gradledemo.Gradledemoclass -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

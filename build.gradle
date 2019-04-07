@@ -48,5 +48,11 @@ repositories {
    // enable TestNG support (default is JUnit)
    useTestNG(){
    suites 'testng.xml'
+   
+   useDefaultListeners = true
+   //Location of Report
+   outputDirectory = file("$projectDir/TestNG Report")
    }
+   
+   reports.html.setDestination(file("$projectDir/Gradle Report"))
     }
