@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="29771" started-at="2019-04-28T17:05:46Z" finished-at="2019-04-28T17:06:16Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="29771" started-at="2019-04-28T17:05:46Z" finished-at="2019-04-28T17:06:16Z">
+      <class name="robotclassdemo.MovetoElement">
+        <test-method status="PASS" signature="launchbrowser()[pri:0, instance:robotclassdemo.MovetoElement@2b98378d]" name="launchbrowser" is-config="true" duration-ms="4466" started-at="2019-04-28T22:35:46Z" description="launching of browser" finished-at="2019-04-28T22:35:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchbrowser -->
+        <test-method status="PASS" signature="openurl()[pri:1, instance:robotclassdemo.MovetoElement@2b98378d]" name="openurl" duration-ms="11185" started-at="2019-04-28T22:35:50Z" description="open the url " finished-at="2019-04-28T22:36:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openurl -->
+        <test-method status="PASS" signature="draganddrop()[pri:2, instance:robotclassdemo.MovetoElement@2b98378d]" name="draganddrop" duration-ms="9643" started-at="2019-04-28T22:36:02Z" description="login to orangehrm" finished-at="2019-04-28T22:36:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- draganddrop -->
+        <test-method status="PASS" signature="movetoelement()[pri:3, instance:robotclassdemo.MovetoElement@2b98378d]" name="movetoelement" duration-ms="3120" started-at="2019-04-28T22:36:11Z" description="move to element" finished-at="2019-04-28T22:36:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- movetoelement -->
+        <test-method status="PASS" signature="closebrowser()[pri:0, instance:robotclassdemo.MovetoElement@2b98378d]" name="closebrowser" is-config="true" duration-ms="1310" started-at="2019-04-28T22:36:14Z" description="close browser" finished-at="2019-04-28T22:36:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+      </class> <!-- robotclassdemo.MovetoElement -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

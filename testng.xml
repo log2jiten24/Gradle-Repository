@@ -4,6 +4,10 @@
   <test thread-count="5" name="Test">
     <classes>
       <class name="gradledemo.Gradledemoclass"/>
+      <class name="gradledemo.DropdownSortdown"/>
+      <class name="gradledemo.Practicetest01"/>
+      <class name="robotclassdemo.DragandDrop"/>
+       <class name="robotclassdemo.MovetoElement"/> 
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

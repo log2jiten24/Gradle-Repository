@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]">
+  <test verbose="0" name="Test(failed)">
+    <classes>
+      <class name="gradledemo.Practicetest01">
+        <methods>
+          <include name="close"/>
+          <include name="launchbrowser"/>
+          <include name="clickonelement"/>
+        </methods>
+      </class> <!-- gradledemo.Practicetest01 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

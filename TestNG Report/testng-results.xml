@@ -1,25 +1,105 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="11" passed="11">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="9158" started-at="2019-04-07T10:49:56Z" finished-at="2019-04-07T10:50:05Z">
+  <suite name="Suite" duration-ms="162885" started-at="2019-04-28T17:24:21Z" finished-at="2019-04-28T17:27:04Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="9158" started-at="2019-04-07T10:49:56Z" finished-at="2019-04-07T10:50:05Z">
+    <test name="Test" duration-ms="162885" started-at="2019-04-28T17:24:21Z" finished-at="2019-04-28T17:27:04Z">
       <class name="gradledemo.Gradledemoclass">
-        <test-method status="PASS" signature="launchbrowser()[pri:0, instance:gradledemo.Gradledemoclass@5b6bd7f1]" name="launchbrowser" is-config="true" duration-ms="5035" started-at="2019-04-07T20:49:56Z" description="launching of browser" finished-at="2019-04-07T20:50:01Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchbrowser -->
-        <test-method status="PASS" signature="openurl()[pri:1, instance:gradledemo.Gradledemoclass@5b6bd7f1]" name="openurl" duration-ms="3393" started-at="2019-04-07T20:50:01Z" description="open the url" finished-at="2019-04-07T20:50:04Z">
+        <test-method status="PASS" signature="openurl()[pri:1, instance:gradledemo.Gradledemoclass@465e6779]" name="openurl" duration-ms="10196" started-at="2019-04-28T22:54:40Z" description="open the url" finished-at="2019-04-28T22:54:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openurl -->
-        <test-method status="PASS" signature="close()[pri:0, instance:gradledemo.Gradledemoclass@5b6bd7f1]" name="close" is-config="true" duration-ms="690" started-at="2019-04-07T20:50:04Z" description="close the browser" finished-at="2019-04-07T20:50:05Z">
+      </class> <!-- gradledemo.Gradledemoclass -->
+      <class name="robotclassdemo.DragandDrop">
+        <test-method status="PASS" signature="launchbrowser()[pri:0, instance:robotclassdemo.DragandDrop@47214bc8]" name="launchbrowser" is-config="true" duration-ms="4791" started-at="2019-04-28T22:54:21Z" description="launching of browser" finished-at="2019-04-28T22:54:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchbrowser -->
+        <test-method status="PASS" signature="launchbrowser()[pri:0, instance:gradledemo.DropdownSortdown@4eef5765]" name="launchbrowser" is-config="true" duration-ms="3519" started-at="2019-04-28T22:54:26Z" description="launching of browser" finished-at="2019-04-28T22:54:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchbrowser -->
+        <test-method status="PASS" signature="launchbrowser()[pri:0, instance:gradledemo.Gradledemoclass@465e6779]" name="launchbrowser" is-config="true" duration-ms="3513" started-at="2019-04-28T22:54:30Z" description="launching of browser" finished-at="2019-04-28T22:54:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchbrowser -->
+        <test-method status="PASS" signature="launchbrowser()[pri:0, instance:robotclassdemo.MovetoElement@72f189fa]" name="launchbrowser" is-config="true" duration-ms="3561" started-at="2019-04-28T22:54:33Z" description="launching of browser" finished-at="2019-04-28T22:54:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchbrowser -->
+        <test-method status="PASS" signature="launchbrowser()[pri:0, instance:gradledemo.Practicetest01@431ec24f]" name="launchbrowser" is-config="true" duration-ms="3487" started-at="2019-04-28T22:54:37Z" description="launching of browser" finished-at="2019-04-28T22:54:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchbrowser -->
+        <test-method status="PASS" signature="openurl()[pri:1, instance:robotclassdemo.DragandDrop@47214bc8]" name="openurl" duration-ms="4977" started-at="2019-04-28T22:55:09Z" description="open the url " finished-at="2019-04-28T22:55:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openurl -->
+        <test-method status="PASS" signature="draganddrop()[pri:2, instance:robotclassdemo.DragandDrop@47214bc8]" name="draganddrop" duration-ms="5852" started-at="2019-04-28T22:55:36Z" description="drag and drop " finished-at="2019-04-28T22:55:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- draganddrop -->
+        <test-method status="PASS" signature="closebrowser()[pri:0, instance:robotclassdemo.DragandDrop@47214bc8]" name="closebrowser" is-config="true" duration-ms="119" started-at="2019-04-28T22:57:01Z" description="close browser" finished-at="2019-04-28T22:57:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+        <test-method status="PASS" signature="closebrowser()[pri:0, instance:gradledemo.DropdownSortdown@4eef5765]" name="closebrowser" is-config="true" duration-ms="110" started-at="2019-04-28T22:57:01Z" description="close browser" finished-at="2019-04-28T22:57:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+        <test-method status="PASS" signature="close()[pri:0, instance:gradledemo.Gradledemoclass@465e6779]" name="close" is-config="true" duration-ms="684" started-at="2019-04-28T22:57:01Z" description="close the browser" finished-at="2019-04-28T22:57:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
-      </class> <!-- gradledemo.Gradledemoclass -->
+        <test-method status="PASS" signature="closebrowser()[pri:0, instance:robotclassdemo.MovetoElement@72f189fa]" name="closebrowser" is-config="true" duration-ms="1517" started-at="2019-04-28T22:57:02Z" description="close browser" finished-at="2019-04-28T22:57:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+        <test-method status="PASS" signature="close()[pri:0, instance:gradledemo.Practicetest01@431ec24f]" name="close" is-config="true" duration-ms="682" started-at="2019-04-28T22:57:04Z" finished-at="2019-04-28T22:57:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- robotclassdemo.DragandDrop -->
+      <class name="gradledemo.DropdownSortdown">
+        <test-method status="PASS" signature="openurl()[pri:1, instance:gradledemo.DropdownSortdown@4eef5765]" name="openurl" duration-ms="13712" started-at="2019-04-28T22:54:50Z" description="open the url" finished-at="2019-04-28T22:55:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openurl -->
+        <test-method status="PASS" signature="verifydropdown()[pri:2, instance:gradledemo.DropdownSortdown@4eef5765]" name="verifydropdown" duration-ms="2235" started-at="2019-04-28T22:55:28Z" description="verify the dropdown" finished-at="2019-04-28T22:55:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifydropdown -->
+      </class> <!-- gradledemo.DropdownSortdown -->
+      <class name="gradledemo.Practicetest01">
+        <test-method status="PASS" signature="openurl()[pri:1, instance:gradledemo.Practicetest01@431ec24f]" name="openurl" duration-ms="5101" started-at="2019-04-28T22:55:04Z" description="open the url" finished-at="2019-04-28T22:55:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openurl -->
+        <test-method status="PASS" signature="clickurl()[pri:2, instance:gradledemo.Practicetest01@431ec24f]" name="clickurl" duration-ms="5643" started-at="2019-04-28T22:55:30Z" description="search of testing " finished-at="2019-04-28T22:55:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickurl -->
+        <test-method status="PASS" signature="clickonelement()[pri:3, instance:gradledemo.Practicetest01@431ec24f]" name="clickonelement" duration-ms="27238" started-at="2019-04-28T22:56:30Z" description="click on testing definition" finished-at="2019-04-28T22:56:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickonelement -->
+      </class> <!-- gradledemo.Practicetest01 -->
+      <class name="robotclassdemo.MovetoElement">
+        <test-method status="PASS" signature="openurl()[pri:1, instance:robotclassdemo.MovetoElement@72f189fa]" name="openurl" duration-ms="13505" started-at="2019-04-28T22:55:14Z" description="open the url " finished-at="2019-04-28T22:55:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openurl -->
+        <test-method status="PASS" signature="draganddrop()[pri:2, instance:robotclassdemo.MovetoElement@72f189fa]" name="draganddrop" duration-ms="48949" started-at="2019-04-28T22:55:42Z" description="login to orangehrm" finished-at="2019-04-28T22:56:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- draganddrop -->
+        <test-method status="PASS" signature="movetoelement()[pri:3, instance:robotclassdemo.MovetoElement@72f189fa]" name="movetoelement" duration-ms="3453" started-at="2019-04-28T22:56:58Z" description="move to element" finished-at="2019-04-28T22:57:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- movetoelement -->
+      </class> <!-- robotclassdemo.MovetoElement -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>
