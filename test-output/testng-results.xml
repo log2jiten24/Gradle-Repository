@@ -2,28 +2,28 @@
 <testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="18597" started-at="2019-04-29T18:17:01Z" finished-at="2019-04-29T18:17:20Z">
+  <suite name="Default suite" duration-ms="43943" started-at="2019-07-10T18:07:06Z" finished-at="2019-07-10T18:07:50Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="18597" started-at="2019-04-29T18:17:01Z" finished-at="2019-04-29T18:17:20Z">
-      <class name="robotclassdemo.Rightclick">
-        <test-method status="PASS" signature="launchbrowser()[pri:0, instance:robotclassdemo.Rightclick@2b98378d]" name="launchbrowser" is-config="true" duration-ms="4365" started-at="2019-04-29T23:47:01Z" description="launching of browser" finished-at="2019-04-29T23:47:05Z">
+    <test name="Default test" duration-ms="43943" started-at="2019-07-10T18:07:06Z" finished-at="2019-07-10T18:07:50Z">
+      <class name="ocrdemo.Readcaptcha">
+        <test-method status="PASS" signature="launchbrowser()[pri:0, instance:ocrdemo.Readcaptcha@4667ae56]" name="launchbrowser" is-config="true" duration-ms="4103" started-at="2019-07-10T23:37:06Z" description="launching of browser" finished-at="2019-07-10T23:37:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchbrowser -->
-        <test-method status="PASS" signature="openurl()[pri:1, instance:robotclassdemo.Rightclick@2b98378d]" name="openurl" duration-ms="2220" started-at="2019-04-29T23:47:05Z" description="open the url " finished-at="2019-04-29T23:47:08Z">
+        <test-method status="PASS" signature="openurl()[pri:1, instance:ocrdemo.Readcaptcha@4667ae56]" name="openurl" duration-ms="19424" started-at="2019-07-10T23:37:10Z" description="open the url" finished-at="2019-07-10T23:37:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openurl -->
-        <test-method status="PASS" signature="rightclick()[pri:2, instance:robotclassdemo.Rightclick@2b98378d]" name="rightclick" duration-ms="9859" started-at="2019-04-29T23:47:08Z" description="right click" finished-at="2019-04-29T23:47:18Z">
+        <test-method status="PASS" signature="login_irctc()[pri:2, instance:ocrdemo.Readcaptcha@4667ae56]" name="login_irctc" duration-ms="14835" started-at="2019-07-10T23:37:29Z" description="login irctc page" finished-at="2019-07-10T23:37:44Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- rightclick -->
-        <test-method status="PASS" signature="closebrowser()[pri:0, instance:robotclassdemo.Rightclick@2b98378d]" name="closebrowser" is-config="true" duration-ms="2102" started-at="2019-04-29T23:47:18Z" description="close browser" finished-at="2019-04-29T23:47:20Z">
+        </test-method> <!-- login_irctc -->
+        <test-method status="PASS" signature="close()[pri:0, instance:ocrdemo.Readcaptcha@4667ae56]" name="close" is-config="true" duration-ms="5502" started-at="2019-07-10T23:37:44Z" description="close the browser" finished-at="2019-07-10T23:37:50Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- closebrowser -->
-      </class> <!-- robotclassdemo.Rightclick -->
+        </test-method> <!-- close -->
+      </class> <!-- ocrdemo.Readcaptcha -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

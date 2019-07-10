@@ -3,13 +3,12 @@
 <suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="robotclassdemo.Rightclick">
+      <class name="ocrdemo.Readcaptcha">
         <methods>
-          <include name="rightclick"/>
-          <include name="closebrowser"/>
+          <include name="login_irctc"/>
           <include name="launchbrowser"/>
         </methods>
-      </class> <!-- robotclassdemo.Rightclick -->
+      </class> <!-- ocrdemo.Readcaptcha -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
