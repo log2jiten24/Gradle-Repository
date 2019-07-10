@@ -2,100 +2,108 @@
 <testng-results skipped="0" failed="0" ignored="0" total="11" passed="11">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="162885" started-at="2019-04-28T17:24:21Z" finished-at="2019-04-28T17:27:04Z">
+  <suite name="Suite" duration-ms="133301" started-at="2019-07-10T16:49:08Z" finished-at="2019-07-10T16:51:22Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="162885" started-at="2019-04-28T17:24:21Z" finished-at="2019-04-28T17:27:04Z">
+    <test name="Test" duration-ms="133301" started-at="2019-07-10T16:49:08Z" finished-at="2019-07-10T16:51:22Z">
       <class name="gradledemo.Gradledemoclass">
-        <test-method status="PASS" signature="openurl()[pri:1, instance:gradledemo.Gradledemoclass@465e6779]" name="openurl" duration-ms="10196" started-at="2019-04-28T22:54:40Z" description="open the url" finished-at="2019-04-28T22:54:50Z">
+        <test-method status="PASS" signature="openurl()[pri:1, instance:gradledemo.Gradledemoclass@71930090]" name="openurl" duration-ms="4719" started-at="2019-07-10T22:19:26Z" description="open the url" finished-at="2019-07-10T22:19:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openurl -->
       </class> <!-- gradledemo.Gradledemoclass -->
       <class name="robotclassdemo.DragandDrop">
-        <test-method status="PASS" signature="launchbrowser()[pri:0, instance:robotclassdemo.DragandDrop@47214bc8]" name="launchbrowser" is-config="true" duration-ms="4791" started-at="2019-04-28T22:54:21Z" description="launching of browser" finished-at="2019-04-28T22:54:26Z">
+        <test-method status="PASS" signature="launchbrowser()[pri:0, instance:robotclassdemo.DragandDrop@3fc9d8c3]" name="launchbrowser" is-config="true" duration-ms="4049" started-at="2019-07-10T22:19:08Z" description="launching of browser" finished-at="2019-07-10T22:19:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchbrowser -->
-        <test-method status="PASS" signature="launchbrowser()[pri:0, instance:gradledemo.DropdownSortdown@4eef5765]" name="launchbrowser" is-config="true" duration-ms="3519" started-at="2019-04-28T22:54:26Z" description="launching of browser" finished-at="2019-04-28T22:54:30Z">
+        <test-method status="PASS" signature="launchbrowser()[pri:0, instance:gradledemo.DropdownSortdown@33ee2d35]" name="launchbrowser" is-config="true" duration-ms="3389" started-at="2019-07-10T22:19:13Z" description="launching of browser" finished-at="2019-07-10T22:19:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchbrowser -->
-        <test-method status="PASS" signature="launchbrowser()[pri:0, instance:gradledemo.Gradledemoclass@465e6779]" name="launchbrowser" is-config="true" duration-ms="3513" started-at="2019-04-28T22:54:30Z" description="launching of browser" finished-at="2019-04-28T22:54:33Z">
+        <test-method status="PASS" signature="launchbrowser()[pri:0, instance:gradledemo.Gradledemoclass@71930090]" name="launchbrowser" is-config="true" duration-ms="3544" started-at="2019-07-10T22:19:16Z" description="launching of browser" finished-at="2019-07-10T22:19:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchbrowser -->
-        <test-method status="PASS" signature="launchbrowser()[pri:0, instance:robotclassdemo.MovetoElement@72f189fa]" name="launchbrowser" is-config="true" duration-ms="3561" started-at="2019-04-28T22:54:33Z" description="launching of browser" finished-at="2019-04-28T22:54:37Z">
+        <test-method status="PASS" signature="launchbrowser()[pri:0, instance:robotclassdemo.MovetoElement@56b7d82a]" name="launchbrowser" is-config="true" duration-ms="3485" started-at="2019-07-10T22:19:19Z" description="launching of browser" finished-at="2019-07-10T22:19:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchbrowser -->
-        <test-method status="PASS" signature="launchbrowser()[pri:0, instance:gradledemo.Practicetest01@431ec24f]" name="launchbrowser" is-config="true" duration-ms="3487" started-at="2019-04-28T22:54:37Z" description="launching of browser" finished-at="2019-04-28T22:54:40Z">
+        <test-method status="PASS" signature="launchbrowser()[pri:0, instance:gradledemo.Practicetest01@3987d1d2]" name="launchbrowser" is-config="true" duration-ms="3499" started-at="2019-07-10T22:19:23Z" description="launching of browser" finished-at="2019-07-10T22:19:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchbrowser -->
-        <test-method status="PASS" signature="openurl()[pri:1, instance:robotclassdemo.DragandDrop@47214bc8]" name="openurl" duration-ms="4977" started-at="2019-04-28T22:55:09Z" description="open the url " finished-at="2019-04-28T22:55:14Z">
+        <test-method status="PASS" signature="openurl()[pri:1, instance:robotclassdemo.DragandDrop@3fc9d8c3]" name="openurl" duration-ms="16905" started-at="2019-07-10T22:19:44Z" description="open the url " finished-at="2019-07-10T22:20:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openurl -->
-        <test-method status="PASS" signature="draganddrop()[pri:2, instance:robotclassdemo.DragandDrop@47214bc8]" name="draganddrop" duration-ms="5852" started-at="2019-04-28T22:55:36Z" description="drag and drop " finished-at="2019-04-28T22:55:42Z">
+        <test-method status="PASS" signature="draganddrop()[pri:2, instance:robotclassdemo.DragandDrop@3fc9d8c3]" name="draganddrop" duration-ms="5472" started-at="2019-07-10T22:20:28Z" description="drag and drop " finished-at="2019-07-10T22:20:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- draganddrop -->
-        <test-method status="PASS" signature="closebrowser()[pri:0, instance:robotclassdemo.DragandDrop@47214bc8]" name="closebrowser" is-config="true" duration-ms="119" started-at="2019-04-28T22:57:01Z" description="close browser" finished-at="2019-04-28T22:57:01Z">
+        <test-method status="PASS" signature="closebrowser()[pri:0, instance:robotclassdemo.DragandDrop@3fc9d8c3]" name="closebrowser" is-config="true" duration-ms="53" started-at="2019-07-10T22:21:11Z" description="close browser" finished-at="2019-07-10T22:21:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closebrowser -->
-        <test-method status="PASS" signature="closebrowser()[pri:0, instance:gradledemo.DropdownSortdown@4eef5765]" name="closebrowser" is-config="true" duration-ms="110" started-at="2019-04-28T22:57:01Z" description="close browser" finished-at="2019-04-28T22:57:01Z">
+        <test-method status="PASS" signature="closebrowser()[pri:0, instance:gradledemo.DropdownSortdown@33ee2d35]" name="closebrowser" is-config="true" duration-ms="83" started-at="2019-07-10T22:21:11Z" description="close browser" finished-at="2019-07-10T22:21:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closebrowser -->
-        <test-method status="PASS" signature="close()[pri:0, instance:gradledemo.Gradledemoclass@465e6779]" name="close" is-config="true" duration-ms="684" started-at="2019-04-28T22:57:01Z" description="close the browser" finished-at="2019-04-28T22:57:02Z">
+        <test-method status="PASS" signature="close()[pri:0, instance:gradledemo.Gradledemoclass@71930090]" name="close" is-config="true" duration-ms="662" started-at="2019-07-10T22:21:11Z" description="close the browser" finished-at="2019-07-10T22:21:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
-        <test-method status="PASS" signature="closebrowser()[pri:0, instance:robotclassdemo.MovetoElement@72f189fa]" name="closebrowser" is-config="true" duration-ms="1517" started-at="2019-04-28T22:57:02Z" description="close browser" finished-at="2019-04-28T22:57:04Z">
+        <test-method status="FAIL" signature="closebrowser()[pri:0, instance:robotclassdemo.MovetoElement@56b7d82a]" name="closebrowser" is-config="true" duration-ms="10087" started-at="2019-07-10T22:21:12Z" description="close browser" finished-at="2019-07-10T22:21:22Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//a[contains(text(),'Logout')]"}  (Session info: chrome=75.0.3770.100)  (Driver info: chromedriver=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)Command duration or timeout: 0 millisecondsFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.htmlBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'System info: host: 'DESKTOP-E1E9EHH', ip: '192.168.43.60', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'Driver info: org.openqa.selenium.chrome.ChromeDriverCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 72.0.3626.69 (3c16f8a135abc..., userDataDir: C:\Users\ACER\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:59594}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 75.0.3770.100, webStorageEnabled: true}Session ID: 211528470c0b2b17d0b7e90f6e9da333*** Element info: {Using=xpath, value=//a[contains(text(),'Logout')]}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[contains(text(),'Logout')]"}  (Session info: chrome=75.0.3770.100)  (Driver info: chromedriver=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)Command duration or timeout: 0 millisecondsFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.htmlBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'System info: host: 'DESKTOP-E1E9EHH', ip: '192.168.43.60', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'Driver info: org.openqa.selenium.chrome.ChromeDriverCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 72.0.3626.69 (3c16f8a135abc..., userDataDir: C:\Users\ACER\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:59594}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 75.0.3770.100, webStorageEnabled: true}Session ID: 211528470c0b2b17d0b7e90f6e9da333*** Element info: {Using=xpath, value=//a[contains(text(),'Logout')]}at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)at java.lang.reflect.Constructor.newInstance(Constructor.java:423)at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)at org.openqa.selenium.By$ByXPath.findElement(By.java:353)at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)at robotclassdemo.MovetoElement.closebrowser(MovetoElement.java:89)at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)at java.lang.reflect.Method.invoke(Method.java:498)at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:451)at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)at org.testng.TestRunner.afterRun(TestRunner.java:725)at org.testng.TestRunner.run(TestRunner.java:509)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.gradle.api.internal.tasks.testing.testng.TestNGTestClassProcessor.runTests(TestNGTestClassProcessor.java:139)at org.gradle.api.internal.tasks.testing.testng.TestNGTestClassProcessor.stop(TestNGTestClassProcessor.java:89)at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.stop(SuiteTestClassProcessor.java:61)at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)at java.lang.reflect.Method.invoke(Method.java:498)at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:32)at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)at com.sun.proxy.$Proxy1.stop(Unknown Source)at org.gradle.api.internal.tasks.testing.worker.TestWorker.stop(TestWorker.java:123)at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)at java.lang.reflect.Method.invoke(Method.java:498)at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:155)at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:137)at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:404)at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63)at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46)at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55)at java.lang.Thread.run(Thread.java:748)]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closebrowser -->
-        <test-method status="PASS" signature="close()[pri:0, instance:gradledemo.Practicetest01@431ec24f]" name="close" is-config="true" duration-ms="682" started-at="2019-04-28T22:57:04Z" finished-at="2019-04-28T22:57:04Z">
+        <test-method status="SKIP" signature="close()[pri:0, instance:gradledemo.Practicetest01@3987d1d2]" name="close" is-config="true" duration-ms="0" started-at="2019-07-10T22:21:22Z" finished-at="2019-07-10T22:21:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
       </class> <!-- robotclassdemo.DragandDrop -->
       <class name="gradledemo.DropdownSortdown">
-        <test-method status="PASS" signature="openurl()[pri:1, instance:gradledemo.DropdownSortdown@4eef5765]" name="openurl" duration-ms="13712" started-at="2019-04-28T22:54:50Z" description="open the url" finished-at="2019-04-28T22:55:04Z">
+        <test-method status="PASS" signature="openurl()[pri:1, instance:gradledemo.DropdownSortdown@33ee2d35]" name="openurl" duration-ms="6914" started-at="2019-07-10T22:19:31Z" description="open the url" finished-at="2019-07-10T22:19:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openurl -->
-        <test-method status="PASS" signature="verifydropdown()[pri:2, instance:gradledemo.DropdownSortdown@4eef5765]" name="verifydropdown" duration-ms="2235" started-at="2019-04-28T22:55:28Z" description="verify the dropdown" finished-at="2019-04-28T22:55:30Z">
+        <test-method status="PASS" signature="verifydropdown()[pri:2, instance:gradledemo.DropdownSortdown@33ee2d35]" name="verifydropdown" duration-ms="1548" started-at="2019-07-10T22:20:21Z" description="verify the dropdown" finished-at="2019-07-10T22:20:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifydropdown -->
       </class> <!-- gradledemo.DropdownSortdown -->
       <class name="gradledemo.Practicetest01">
-        <test-method status="PASS" signature="openurl()[pri:1, instance:gradledemo.Practicetest01@431ec24f]" name="openurl" duration-ms="5101" started-at="2019-04-28T22:55:04Z" description="open the url" finished-at="2019-04-28T22:55:09Z">
+        <test-method status="PASS" signature="openurl()[pri:1, instance:gradledemo.Practicetest01@3987d1d2]" name="openurl" duration-ms="5748" started-at="2019-07-10T22:19:38Z" description="open the url" finished-at="2019-07-10T22:19:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openurl -->
-        <test-method status="PASS" signature="clickurl()[pri:2, instance:gradledemo.Practicetest01@431ec24f]" name="clickurl" duration-ms="5643" started-at="2019-04-28T22:55:30Z" description="search of testing " finished-at="2019-04-28T22:55:36Z">
+        <test-method status="PASS" signature="clickurl()[pri:2, instance:gradledemo.Practicetest01@3987d1d2]" name="clickurl" duration-ms="5499" started-at="2019-07-10T22:20:23Z" description="search of testing " finished-at="2019-07-10T22:20:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickurl -->
-        <test-method status="PASS" signature="clickonelement()[pri:3, instance:gradledemo.Practicetest01@431ec24f]" name="clickonelement" duration-ms="27238" started-at="2019-04-28T22:56:30Z" description="click on testing definition" finished-at="2019-04-28T22:56:58Z">
+        <test-method status="PASS" signature="clickonelement()[pri:3, instance:gradledemo.Practicetest01@3987d1d2]" name="clickonelement" duration-ms="23253" started-at="2019-07-10T22:20:43Z" description="click on testing definition" finished-at="2019-07-10T22:21:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickonelement -->
       </class> <!-- gradledemo.Practicetest01 -->
       <class name="robotclassdemo.MovetoElement">
-        <test-method status="PASS" signature="openurl()[pri:1, instance:robotclassdemo.MovetoElement@72f189fa]" name="openurl" duration-ms="13505" started-at="2019-04-28T22:55:14Z" description="open the url " finished-at="2019-04-28T22:55:28Z">
+        <test-method status="PASS" signature="openurl()[pri:1, instance:robotclassdemo.MovetoElement@56b7d82a]" name="openurl" duration-ms="20423" started-at="2019-07-10T22:20:01Z" description="open the url " finished-at="2019-07-10T22:20:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openurl -->
-        <test-method status="PASS" signature="draganddrop()[pri:2, instance:robotclassdemo.MovetoElement@72f189fa]" name="draganddrop" duration-ms="48949" started-at="2019-04-28T22:55:42Z" description="login to orangehrm" finished-at="2019-04-28T22:56:30Z">
+        <test-method status="PASS" signature="draganddrop()[pri:2, instance:robotclassdemo.MovetoElement@56b7d82a]" name="draganddrop" duration-ms="9203" started-at="2019-07-10T22:20:34Z" description="login to orangehrm" finished-at="2019-07-10T22:20:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- draganddrop -->
-        <test-method status="PASS" signature="movetoelement()[pri:3, instance:robotclassdemo.MovetoElement@72f189fa]" name="movetoelement" duration-ms="3453" started-at="2019-04-28T22:56:58Z" description="move to element" finished-at="2019-04-28T22:57:01Z">
+        <test-method status="PASS" signature="movetoelement()[pri:3, instance:robotclassdemo.MovetoElement@56b7d82a]" name="movetoelement" duration-ms="4726" started-at="2019-07-10T22:21:06Z" description="move to element" finished-at="2019-07-10T22:21:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- movetoelement -->

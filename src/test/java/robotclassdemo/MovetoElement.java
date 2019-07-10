@@ -90,5 +90,7 @@ public class MovetoElement {
 	logout.click();
 	
 	driver.close();	
+	
+	driver.quit();
 	}
 }
