@@ -1,37 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" ignored="0" total="2" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="62491" started-at="2019-07-16T19:36:16Z" finished-at="2019-07-16T19:37:18Z">
+  <suite name="Default suite" duration-ms="66862" started-at="2019-08-12T19:46:54Z" finished-at="2019-08-12T19:48:01Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="62491" started-at="2019-07-16T19:36:16Z" finished-at="2019-07-16T19:37:18Z">
-      <class name="javaconcepts.WebTablehandling">
-        <test-method status="PASS" signature="openbrowser()[pri:0, instance:javaconcepts.WebTablehandling@343f4d3d]" name="openbrowser" is-config="true" duration-ms="20501" started-at="2019-07-17T01:06:16Z" finished-at="2019-07-17T01:06:36Z">
+    <test name="Default test" duration-ms="66862" started-at="2019-08-12T19:46:54Z" finished-at="2019-08-12T19:48:01Z">
+      <class name="robotclassdemo.HashMapExcelReadexample">
+        <test-method status="PASS" signature="launchbrowser()[pri:0, instance:robotclassdemo.HashMapExcelReadexample@598067a5]" name="launchbrowser" is-config="true" duration-ms="16612" started-at="2019-08-13T01:16:54Z" description="launching of browser" finished-at="2019-08-13T01:17:10Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- openbrowser -->
-        <test-method status="FAIL" signature="verifytableheader()[pri:0, instance:javaconcepts.WebTablehandling@343f4d3d]" name="verifytableheader" duration-ms="40322" started-at="2019-07-17T01:06:36Z" description="webtable verification for the header file" finished-at="2019-07-17T01:07:17Z">
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//table[@id = 'customers']/tbody/tr/th[4]"}  (Session info: chrome=75.0.3770.142)  (Driver info: chromedriver=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)Command duration or timeout: 0 millisecondsFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.htmlBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'System info: host: 'DESKTOP-E1E9EHH', ip: '192.168.43.60', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'Driver info: org.openqa.selenium.chrome.ChromeDriverCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 72.0.3626.69 (3c16f8a135abc..., userDataDir: C:\Users\ACER\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:57354}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 75.0.3770.142, webStorageEnabled: true}Session ID: 0e78504059f2b9babecd90df79c1eeb6*** Element info: {Using=xpath, value=//table[@id = 'customers']/tbody/tr/th[4]}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//table[@id = 'customers']/tbody/tr/th[4]"}  (Session info: chrome=75.0.3770.142)  (Driver info: chromedriver=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)Command duration or timeout: 0 millisecondsFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.htmlBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'System info: host: 'DESKTOP-E1E9EHH', ip: '192.168.43.60', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'Driver info: org.openqa.selenium.chrome.ChromeDriverCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 72.0.3626.69 (3c16f8a135abc..., userDataDir: C:\Users\ACER\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:57354}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 75.0.3770.142, webStorageEnabled: true}Session ID: 0e78504059f2b9babecd90df79c1eeb6*** Element info: {Using=xpath, value=//table[@id = 'customers']/tbody/tr/th[4]}at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)at java.lang.reflect.Constructor.newInstance(Unknown Source)at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)at org.openqa.selenium.By$ByXPath.findElement(By.java:353)at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)at javaconcepts.WebTablehandling.verifytableheader(WebTablehandling.java:59)at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)at java.lang.reflect.Method.invoke(Unknown Source)at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)at org.testng.internal.Invoker.invokeMethod(Invoker.java:571)at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+        </test-method> <!-- launchbrowser -->
+        <test-method status="PASS" signature="loginUseradmin()[pri:1, instance:robotclassdemo.HashMapExcelReadexample@598067a5]" name="loginUseradmin" duration-ms="17612" started-at="2019-08-13T01:17:10Z" description="open the url and enter username and password for useradmin" finished-at="2019-08-13T01:17:28Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifytableheader -->
-        <test-method status="PASS" signature="verifytabledetails()[pri:1, instance:javaconcepts.WebTablehandling@343f4d3d]" name="verifytabledetails" duration-ms="891" started-at="2019-07-17T01:07:17Z" description="webtable verification for the table column " finished-at="2019-07-17T01:07:18Z">
+        </test-method> <!-- loginUseradmin -->
+        <test-method status="PASS" signature="closethebrowser()[pri:0, instance:robotclassdemo.HashMapExcelReadexample@598067a5]" name="closethebrowser" is-config="true" duration-ms="718" started-at="2019-08-13T01:17:28Z" finished-at="2019-08-13T01:17:29Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifytabledetails -->
-        <test-method status="PASS" signature="close()[pri:0, instance:javaconcepts.WebTablehandling@343f4d3d]" name="close" is-config="true" duration-ms="743" started-at="2019-07-17T01:07:18Z" description="close the browser" finished-at="2019-07-17T01:07:18Z">
+        </test-method> <!-- closethebrowser -->
+        <test-method status="PASS" signature="launchbrowser()[pri:0, instance:robotclassdemo.HashMapExcelReadexample@598067a5]" name="launchbrowser" is-config="true" duration-ms="14019" started-at="2019-08-13T01:17:29Z" description="launching of browser" finished-at="2019-08-13T01:17:43Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- close -->
-      </class> <!-- javaconcepts.WebTablehandling -->
+        </test-method> <!-- launchbrowser -->
+        <test-method status="PASS" signature="loginadmin()[pri:2, instance:robotclassdemo.HashMapExcelReadexample@598067a5]" name="loginadmin" duration-ms="17144" started-at="2019-08-13T01:17:43Z" description="open the url and enter username and password for admin" finished-at="2019-08-13T01:18:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginadmin -->
+        <test-method status="PASS" signature="closethebrowser()[pri:0, instance:robotclassdemo.HashMapExcelReadexample@598067a5]" name="closethebrowser" is-config="true" duration-ms="711" started-at="2019-08-13T01:18:00Z" finished-at="2019-08-13T01:18:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closethebrowser -->
+      </class> <!-- robotclassdemo.HashMapExcelReadexample -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

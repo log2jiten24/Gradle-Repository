@@ -135,3 +135,11 @@ static WebDriver driver ;
   		   
   	   }	
    }
+
+
+//*[@id='crmcalendar']/table/tbody/tr[2]/td/table/tbody/tr[2]/td[2]
+
+//*[@id='crmcalendar']/table/tbody/tr[1]/td//select[@name = 'slctMonth']
+
+//*[@id='crmcalendar']/table/tbody/tr[2]/td/table/tbody/tr[2]//td[1]
+
