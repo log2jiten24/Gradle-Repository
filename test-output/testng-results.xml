@@ -2,32 +2,32 @@
 <testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="66862" started-at="2019-08-12T19:46:54Z" finished-at="2019-08-12T19:48:01Z">
+  <suite name="Default suite" duration-ms="61593" started-at="2019-08-30T15:49:27Z" finished-at="2019-08-30T15:50:29Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="66862" started-at="2019-08-12T19:46:54Z" finished-at="2019-08-12T19:48:01Z">
+    <test name="Default test" duration-ms="61593" started-at="2019-08-30T15:49:27Z" finished-at="2019-08-30T15:50:29Z">
       <class name="robotclassdemo.HashMapExcelReadexample">
-        <test-method status="PASS" signature="launchbrowser()[pri:0, instance:robotclassdemo.HashMapExcelReadexample@598067a5]" name="launchbrowser" is-config="true" duration-ms="16612" started-at="2019-08-13T01:16:54Z" description="launching of browser" finished-at="2019-08-13T01:17:10Z">
+        <test-method status="PASS" signature="launchbrowser()[pri:0, instance:robotclassdemo.HashMapExcelReadexample@598067a5]" name="launchbrowser" is-config="true" duration-ms="15190" started-at="2019-08-30T21:19:27Z" description="launching of browser" finished-at="2019-08-30T21:19:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchbrowser -->
-        <test-method status="PASS" signature="loginUseradmin()[pri:1, instance:robotclassdemo.HashMapExcelReadexample@598067a5]" name="loginUseradmin" duration-ms="17612" started-at="2019-08-13T01:17:10Z" description="open the url and enter username and password for useradmin" finished-at="2019-08-13T01:17:28Z">
+        <test-method status="PASS" signature="loginUseradmin()[pri:1, instance:robotclassdemo.HashMapExcelReadexample@598067a5]" name="loginUseradmin" duration-ms="17258" started-at="2019-08-30T21:19:43Z" description="open the url and enter username and password for useradmin" finished-at="2019-08-30T21:20:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginUseradmin -->
-        <test-method status="PASS" signature="closethebrowser()[pri:0, instance:robotclassdemo.HashMapExcelReadexample@598067a5]" name="closethebrowser" is-config="true" duration-ms="718" started-at="2019-08-13T01:17:28Z" finished-at="2019-08-13T01:17:29Z">
+        <test-method status="PASS" signature="closethebrowser()[pri:0, instance:robotclassdemo.HashMapExcelReadexample@598067a5]" name="closethebrowser" is-config="true" duration-ms="745" started-at="2019-08-30T21:20:00Z" finished-at="2019-08-30T21:20:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closethebrowser -->
-        <test-method status="PASS" signature="launchbrowser()[pri:0, instance:robotclassdemo.HashMapExcelReadexample@598067a5]" name="launchbrowser" is-config="true" duration-ms="14019" started-at="2019-08-13T01:17:29Z" description="launching of browser" finished-at="2019-08-13T01:17:43Z">
+        <test-method status="PASS" signature="launchbrowser()[pri:0, instance:robotclassdemo.HashMapExcelReadexample@598067a5]" name="launchbrowser" is-config="true" duration-ms="12088" started-at="2019-08-30T21:20:01Z" description="launching of browser" finished-at="2019-08-30T21:20:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchbrowser -->
-        <test-method status="PASS" signature="loginadmin()[pri:2, instance:robotclassdemo.HashMapExcelReadexample@598067a5]" name="loginadmin" duration-ms="17144" started-at="2019-08-13T01:17:43Z" description="open the url and enter username and password for admin" finished-at="2019-08-13T01:18:00Z">
+        <test-method status="PASS" signature="loginadmin()[pri:2, instance:robotclassdemo.HashMapExcelReadexample@598067a5]" name="loginadmin" duration-ms="15570" started-at="2019-08-30T21:20:13Z" description="open the url and enter username and password for admin" finished-at="2019-08-30T21:20:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginadmin -->
-        <test-method status="PASS" signature="closethebrowser()[pri:0, instance:robotclassdemo.HashMapExcelReadexample@598067a5]" name="closethebrowser" is-config="true" duration-ms="711" started-at="2019-08-13T01:18:00Z" finished-at="2019-08-13T01:18:01Z">
+        <test-method status="PASS" signature="closethebrowser()[pri:0, instance:robotclassdemo.HashMapExcelReadexample@598067a5]" name="closethebrowser" is-config="true" duration-ms="705" started-at="2019-08-30T21:20:28Z" finished-at="2019-08-30T21:20:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closethebrowser -->
