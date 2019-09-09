@@ -2,6 +2,8 @@ package Inheritanceconcept;
 
 public class Finallyconcept {
 
+	//finally is a block
+	
 	public static void main(String[] args) {
 		
 //		test1();
