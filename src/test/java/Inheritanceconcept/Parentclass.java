@@ -7,6 +7,23 @@ package Inheritanceconcept;
 	
 	public class Parentclass {
 		
+		//create a parent class default constructor 
+		
+		public Parentclass (){
+		System.out.println ("Parent claass constructor ") ;	
+		}
+		
+		//constructor with parameters
+		public Parentclass (int i) {
+		System.out.println (" value of i is " + i  ) ;	
+		}
+		
+		//constructor with parameters
+		public Parentclass (int i , int k) {
+		System.out.println (" value of i is " + i  ) ;	
+		System.out.println (" value of k is " + k ) ;
+		
+				}
 	public final  void start () {
 		System.out.println ("parent class start ");
 	}
