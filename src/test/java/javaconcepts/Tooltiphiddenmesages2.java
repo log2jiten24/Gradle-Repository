@@ -1,6 +1,7 @@
 package javaconcepts;
 
 import org.testng.annotations.Test;
+import org.testng.Assert;
 import org.testng.AssertJUnit;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -37,7 +38,7 @@ public class Tooltiphiddenmesages2 {
 	System.out.println ("values printed inside text :" + text );
 	
 	//verify the condition 
-	AssertJUnit.assertTrue(text.contains("Tooltip"));
+	Assert.assertTrue(text.contains("Tooltip"));
 			
 	}
 	

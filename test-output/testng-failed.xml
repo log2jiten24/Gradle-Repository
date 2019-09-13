@@ -3,13 +3,13 @@
 <suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="robotclassdemo.HashMapExcelReadexample">
+      <class name="javaconcepts.Tooltiphiddenmesages2">
         <methods>
-          <include name="loginUseradmin"/>
-          <include name="closethebrowser"/>
           <include name="launchbrowser"/>
+          <include name="verifytoolkitmessages"/>
+          <include name="closebrowser"/>
         </methods>
-      </class> <!-- robotclassdemo.HashMapExcelReadexample -->
+      </class> <!-- javaconcepts.Tooltiphiddenmesages2 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
